@@ -14,7 +14,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Bot token from environment variable
-BOT_TOKEN = os.environ.get('8495322697:AAETNIrnJxKGvsgEc8EY1j3a5N_DMLTrrdw')
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 
 # Store messages to be deleted
 messages_to_delete = []
